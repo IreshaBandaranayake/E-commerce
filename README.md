@@ -38,16 +38,23 @@ Tech Stack
 • Third-Party Integrations: Stripe for secure payment processing, Multer for file handling, Axios for API calls.
 
 API Architecture
-The REST APIs used to handle user authentication, product management, order processing, and more. Authenticated APIs ensure secure data access. APIs were tested using Postman.
-Testing
 
-• API Testing: APIs were tested using Postman, to verify data transfer accuracy and error handling.
+REST API
 
-• Error Handling: Comprehensive error handling covered cases like failed authentication, invalid inputs, and server issues.
+API Testing
 
-• Feedback Integration: Feedback from peers was used to refine the user interface and improve the overall experience.
+APIs were tested using Postman
+
+• Error Handling:
+
+covered cases like failed authentication, invalid inputs, and server issues.
+
+• Feedback Integration:
+
+Feedback from peers was used to refine the user interface and improve the overall experience.
 
 Deployment Process
+
 The application is deployed on Render.
 
 Installation Instructions
@@ -119,13 +126,16 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
 (Note: Please kindly note that I have used Render's free hosting service to host my website. Therefore, it may sometimes take a few minutes to load the entire webpage. In such cases, kindly wait until the webpage is fully loaded. If you can see product items with their prices under the “Choose Your Flavor” heading, it means the website has loaded completely.)
 
 1. User Registration and Login
+   
    In the top right corner of the website, you will find the “Sign-Up” option for new users to register with our system and for registered users to log in to the website. 
    To log in or register on the system: Email ID: Must be valid and Password: Must be at least 8 characters long.
 
-2. Navigate through the website
+3. Navigate through the website
+   
    Using the navigation bar in the header section, you can easily navigate through our website. The provided links locate you to the menu, contact us, and home of the website. 
 
-3. Explore the Menu
+5. Explore the Menu
+   
    You can explore our menu in two ways:
    • By clicking the "menu" link in the navigation bar
    • By clicking the "View Our Menu" button in the display image
@@ -133,30 +143,36 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
    
    [![Menu](https://i.postimg.cc/G4nk7sMT/menu.png)](https://postimg.cc/G4nk7sMT)
 
-5. Filter Items
+7. Filter Items
+   
    • By selecting any menu category (e.g. Salad, Noodles), you can filter the available food items under that category. You can then view the available items for the selected category.
    • By clicking on the + icon on the product image, you can increase the quantity you want to order. You can also decrease the quantity.
    
    [![Cat](https://i.postimg.cc/kDZNSHKc/cat.png)](https://postimg.cc/kDZNSHKc)
 
-7. Add Item to the Cart
+9. Add Item to the Cart
+    
    • When you select food items along with their quantities, the selected items will be added to the cart.
    • After adding items to the cart, you will notice that the cart icon in the navigation bar changes as in the following image
    
    [![Basket](https://i.postimg.cc/LYQtNC7m/basket.png)](https://postimg.cc/LYQtNC7m)
 
-9. Cart Page
+10. Cart Page
+    
    • You can navigate to the Cart page by clicking the above Cart icon in the header.
    • On the Cart page, you can: View your added items details and remove/decrease items quantity
    
    [![Cart](https://i.postimg.cc/Wtt6hVFz/cart.png)](https://postimg.cc/Wtt6hVFz)
 
 11. Proceed to Checkout
+    
    • By clicking the Proceed to Checkout button on the Cart page, you will be directed to the checkout page.
    • On the checkout page, you must fill in your Delivery Information and click the Proceed to Payment button to continue with the payment.
 
 12. Payment
+    
    On the payment page:
+   
    Left side: You can see the total amount, items with quantities and prices. If needed, you can go back by clicking the back arrow to edit something.
 
    Right side: You need to enter your payment details.
@@ -181,7 +197,8 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
    
    [![Payment](https://i.postimg.cc/yJvc8p70/payment.png)](https://postimg.cc/yJvc8p70)
 
-11. My Orders
+13. My Orders
+    
    • After completing the payment, you will automatically be redirected to the “My Orders page”.
    • On this page, you can view your order details and the order status
    • You can also view your orders in the following way:
@@ -190,11 +207,12 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
 
    [![My Orders](https://i.postimg.cc/tYx3NzzH/myOrders.png)](https://postimg.cc/tYx3NzzH)
 
-13. Admin User
-    Admin Panel URL: https://fooddelivery-admin-yhue.onrender.com/
+14. Admin Panel
+
     Admin User can Add / Delete Food Items, view the list of items on the website. And admin can view the order details and update order status using the admin panel.
 
-14. Add Items
+15. Add Items
+    
     • The admin can add food items by clicking the “Add Items” icon in the Admin Panel.
     • After filling in the item details and clicking the ADD button, the item will be successfully added.
     • The added item will appear in the “List Items” section of the Admin Panel and also on the frontend of the website under the selected category (Under the header Choose Your Flavour ).
@@ -202,22 +220,28 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
     [![Add Item](https://i.postimg.cc/0MSkBrXr/addIem.png)](https://postimg.cc/0MSkBrXr)
 
 16. List of Items
+ 
     • The added items are displayed in the List Items section of the Admin Panel.
     • The admin also has the option to delete items.
     • If an item is removed from the Admin Panel, it will no longer appear in the frontend customer view.
     
     [![List Item](https://i.postimg.cc/dZKsPvg6/listItem.png)](https://postimg.cc/dZKsPvg6)
 
-18. Orders
+17. Orders
+    
     The admin can view customer orders and update their statuses. Three order statuses are available:
     • Order Processing: The order is being prepared.
+    
     • Out for Delivery: The order is on its way.
+    
     • Delivered: The order has been completed.
+    
     The admin can update the order status at each stage, and these updates will reflect in the My Orders section for customers. This allows customers to view the current status of their orders.
     
     [![Orders Admin](https://i.postimg.cc/D4d27HTT/orderesadmin.png)](https://postimg.cc/D4d27HTT)
 
-20. Mobile Responsiveness
+18. Mobile Responsiveness
+19. 
     • MealHub is a fully responsive food ordering website (Both the frontend and the admin panel)
    
     [![Responsive](https://i.postimg.cc/CdjMCBfQ/responsive.png)](https://postimg.cc/CdjMCBfQ)
