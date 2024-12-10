@@ -45,9 +45,8 @@ Tech Stack
 
 • Feedback Integration - Feedback from peers was used to refine the user interface and improve the overall experience.
 
-Deployment Process
+• Deployment Process - The application is deployed on Render
 
-The application is deployed on Render.
 
 Installation Instructions
 
@@ -110,6 +109,7 @@ To Run the Project Locally,
 17. Start the Backend server
     
        npm start
+
 
 User's Manual
 
