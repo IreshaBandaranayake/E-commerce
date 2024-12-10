@@ -86,15 +86,15 @@ To Run the Project Locally,
 
 11. Setup the Frontend and Backend URL
     
-      Admin folder in App.jsx file
+   • Admin folder in App.jsx file
    
       const url = YOUR_BACKEND_URL
    
-      Frontend folder in StoreContext.js file
+   • Frontend folder in StoreContext.js file
    
       const url = YOUR_BACKEND_URL
    
-      Backend folder orderController.js file
+   • Backend folder orderController.js file
    
       const frontend_url = YOUR_FRONTEND_URL
 
@@ -233,7 +233,7 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
     [![Orders Admin](https://i.postimg.cc/D4d27HTT/orderesadmin.png)](https://postimg.cc/D4d27HTT)
 
 18. Mobile Responsiveness
-19. 
+    
     • MealHub is a fully responsive food ordering website (Both the frontend and the admin panel)
    
     [![Responsive](https://i.postimg.cc/CdjMCBfQ/responsive.png)](https://postimg.cc/CdjMCBfQ)
