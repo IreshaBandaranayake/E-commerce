@@ -26,17 +26,25 @@ MealHub is a responsive food ordering website offering a seamless experience for
 With mobile responsiveness, clear navigation, and input validation using Validator, MealHub ensures convenience, accessibility, and a transparent ordering experience for both technical and non-technical users.
 
 Tech Stack
+
 • Frontend: React.js for dynamic and responsive interfaces, with React Router for navigation and Toastify for notifications
+
 • Backend: Node.js and Express.js for a secure and scalable server-side application
+
 • Database: MongoDB for efficient data storage and Mongoose for schema validation.
+
 • Authentication and Security: JWT(Json Web Token) for secure user authentication and Bcrypt for password hashing.
+
 • Third-Party Integrations: Stripe for secure payment processing, Multer for file handling, Axios for API calls.
 
 API Architecture
 The REST APIs used to handle user authentication, product management, order processing, and more. Authenticated APIs ensure secure data access. APIs were tested using Postman.
 Testing
+
 • API Testing: APIs were tested using Postman, to verify data transfer accuracy and error handling.
+
 • Error Handling: Comprehensive error handling covered cases like failed authentication, invalid inputs, and server issues.
+
 • Feedback Integration: Feedback from peers was used to refine the user interface and improve the overall experience.
 
 Deployment Process
@@ -47,43 +55,61 @@ Installation Instructions
 To Run the Project Locally,
 
 1. Clone the Project
+   
    git clone https://github.com/IreshaBandaranayake/FoodDelivery.git
 
-2. Go to the Project Directory
+3. Go to the Project Directory
+   
    cd FoodDelivery
 
-3. Install Dependencies Front end
+5. Install Dependencies Front end
+   
    cd frontend
+   
    npm install
 
-4. Install Dependencies Admin
+7. Install Dependencies Admin
+   
    cd admin
+   
    npm install
 
-5. Install Dependencies Backend
+9. Install Dependencies Backend
+    
    cd backend
+   
    npm install
 
-6. Set Up Environmental Variables
+11. Set Up Environmental Variables
+    
    JWT_SECRET=YOUR_SECRET_TEXT
    
    STRIPE_SECRET_KEY=YOUR_KEY
 
-8. Setup the Frontend and Backend URL
+11. Setup the Frontend and Backend URL
+    
    Admin folder in App.jsx file
+   
    const url = YOUR_BACKEND_URL
+   
    Frontend folder in StoreContext.js file
+   
    const url = YOUR_BACKEND_URL
+   
    Backend folder orderController.js file
+   
    const frontend_url = YOUR_FRONTEND_URL
 
-9. Start the Backend server
+13. Start the Backend server
+    
    nodemon server.js
 
-10. Start the Frontend server
+15. Start the Frontend server
+    
    npm start
 
-11. Start the Backend server
+17. Start the Backend server
+    
     npm start
 
 User's Manual
