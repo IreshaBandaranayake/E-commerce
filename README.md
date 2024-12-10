@@ -82,35 +82,35 @@ To Run the Project Locally,
 
 11. Set Up Environmental Variables
     
-   JWT_SECRET=YOUR_SECRET_TEXT
+      JWT_SECRET=YOUR_SECRET_TEXT
    
-   STRIPE_SECRET_KEY=YOUR_KEY
+      STRIPE_SECRET_KEY=YOUR_KEY
 
 11. Setup the Frontend and Backend URL
     
-   Admin folder in App.jsx file
+      Admin folder in App.jsx file
    
-   const url = YOUR_BACKEND_URL
+      const url = YOUR_BACKEND_URL
    
-   Frontend folder in StoreContext.js file
+      Frontend folder in StoreContext.js file
    
-   const url = YOUR_BACKEND_URL
+      const url = YOUR_BACKEND_URL
    
-   Backend folder orderController.js file
+      Backend folder orderController.js file
    
-   const frontend_url = YOUR_FRONTEND_URL
+      const frontend_url = YOUR_FRONTEND_URL
 
 13. Start the Backend server
     
-   nodemon server.js
+      nodemon server.js
 
 15. Start the Frontend server
     
-   npm start
+      npm start
 
 17. Start the Backend server
     
-    npm start
+       npm start
 
 User's Manual
 
@@ -160,17 +160,25 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
    Left side: You can see the total amount, items with quantities and prices. If needed, you can go back by clicking the back arrow to edit something.
 
    Right side: You need to enter your payment details.
+   
    • First, enter your email address.
+   
    • Then, select the “Card” option. (Following image you can see this option, highlighted with red outline)
+   
    • After that, add your card information. You can test this option using dummy Stripe card numbers. Below are the details for testing:
+   
    • Card Number: 4000002460000001
+   
    • Date: 12/26 (You can use any valid month and year that hasn't expired in MM/YY format)
+   
    • CVC: 456 (Use Any 3 digits)
+   
    • Country: Finland ( The above card number is for Finland)
 
    If you need dummy card numbers for other countries, visit this URL: Stripe Testing Cards. (https://docs.stripe.com/testing#international-cards)
    After entering the payment details, click the Pay button to proceed with the payment.
    (Note: The payment process may take a few minutes due to the free hosting services. Please be patient until you are redirected to the "My Orders" page)
+   
    [![Payment](https://i.postimg.cc/yJvc8p70/payment.png)](https://postimg.cc/yJvc8p70)
 
 11. My Orders
