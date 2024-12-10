@@ -222,6 +222,7 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
 17. Orders
     
     The admin can view customer orders and update their statuses. Three order statuses are available:
+    
     • Order Processing: The order is being prepared.
     
     • Out for Delivery: The order is on its way.
@@ -232,7 +233,7 @@ Users can visit our website using the url: https://fooddelivery-frontend-iuul.on
     
     [![Orders Admin](https://i.postimg.cc/D4d27HTT/orderesadmin.png)](https://postimg.cc/D4d27HTT)
 
-18. Mobile Responsiveness
+19. Mobile Responsiveness
     
     • MealHub is a fully responsive food ordering website (Both the frontend and the admin panel)
    
