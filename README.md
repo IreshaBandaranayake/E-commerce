@@ -37,21 +37,13 @@ Tech Stack
 
 • Third-Party Integrations: Stripe for secure payment processing, Multer for file handling, Axios for API calls.
 
-API Architecture
+• API Architecture - REST API
 
-REST API
+• API Testing  - APIs were tested using Postman
 
-API Testing
+• Error Handling - covered cases like failed authentication, invalid inputs, and server issues.
 
-APIs were tested using Postman
-
-• Error Handling:
-
-covered cases like failed authentication, invalid inputs, and server issues.
-
-• Feedback Integration:
-
-Feedback from peers was used to refine the user interface and improve the overall experience.
+• Feedback Integration - Feedback from peers was used to refine the user interface and improve the overall experience.
 
 Deployment Process
 
